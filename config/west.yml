@@ -4,10 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sadekbaroudi
       url-base: https://github.com/sadekbaroudi
-    # Note: This is only included because the feat/pointers-move-scroll isn't merged into
-    #       ZMK main yet. Once it's merged, you no longer need this.
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
