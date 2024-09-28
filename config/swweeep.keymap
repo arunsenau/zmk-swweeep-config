@@ -56,6 +56,8 @@
 &lt FUNC TAB                                                                                                                      &lt MEDIA BSPC
 &lt SYM SPACE                                                                                                                     &kp SQT
             >;
+
+            label = "DEFAULT";
         };
 
         nav_layer {
@@ -66,6 +68,8 @@
 &kp TAB                                                                                                   &kp BSPC
 &kp SPACE                                                                                                 &kp DOT
             >;
+
+            label = "NAV";
         };
 
         sym_layer {
@@ -76,6 +80,8 @@
 &kp DEL                                                                                                                                      &kp BSPC
 &trans                                                                                                                                       &trans
             >;
+
+            label = "SYMBOL";
         };
 
         func_layer {
@@ -86,6 +92,8 @@
 &trans                                                                                                                              &kp C_PLAY_PAUSE
 &trans                                                                                                                              &kp SPACE
             >;
+
+            label = "FUNCTION";
         };
 
         media_layer {
@@ -96,6 +104,8 @@
 &kp DEL                                                                                                                                         &trans
 &out OUT_BLE                                                                                                                                    &out OUT_USB
             >;
+
+            label = "MEDIA";
         };
 
         numlft_layer {
@@ -106,6 +116,8 @@
 &trans                                                                                     &trans
 &trans                                                                                     &trans
             >;
+
+            label = "LEFTNUM";
         };
 
         numrht_layer {
@@ -116,6 +128,8 @@
 &trans                                                                                  &trans
 &trans                                                                                  &trans
             >;
+
+            label = "RIGHTNUM";
         };
     };
 };
