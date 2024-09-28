@@ -93,7 +93,7 @@
 &trans                                                                                                                              &kp SPACE
             >;
 
-            label = "FUNCTION";
+            label = "FUNC";
         };
 
         media_layer {
@@ -117,7 +117,7 @@
 &trans                                                                                     &trans
             >;
 
-            label = "LEFTNUM";
+            label = "L_NUM";
         };
 
         numrht_layer {
@@ -129,7 +129,7 @@
 &trans                                                                                  &trans
             >;
 
-            label = "RIGHTNUM";
+            label = "R_NUM";
         };
     };
 };
