@@ -31,15 +31,15 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
 
         hs: homerow_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <200>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
@@ -50,11 +50,11 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W       &kp F       &kp P         &lt 6 B                &lt 5 J    &kp L         &kp U       &kp Y       &kp SEMI
-&hm LEFT_CONTROL A  &hm LGUI R  &hm LALT S  &hs LSHIFT T  &kp G                  &kp M      &hs RSHIFT N  &hm RALT E  &hm RGUI I  &hm RIGHT_CONTROL O
-&kp Z               &kp X       &kp C       &kp D         &kp V    &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH    &tog 1      &lt NAV RET
-&lt FUNC TAB                                                                                                                      &lt MEDIA BSPC
-&lt SYM SPACE                                                                                                                     &kp SQT
+&kp Q           &kp W               &kp F           &kp P         &lt 6 B                &lt 5 J    &kp L         &kp U            &kp Y                &kp SEMI
+&hm LEFT_ALT A  &hm LEFT_CONTROL R  &hm LEFT_GUI S  &hs LSHIFT T  &kp G                  &kp M      &hs RSHIFT N  &hm RIGHT_GUI E  &hm RIGHT_CONTROL I  &hm RIGHT_ALT O
+&kp Z           &kp X               &kp C           &kp D         &kp V    &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH         &tog 1               &lt NAV RET
+&lt FUNC TAB                                                                                                                                            &lt MEDIA BSPC
+&lt SYM SPACE                                                                                                                                           &kp SQT
             >;
 
             label = "DEFAULT";
