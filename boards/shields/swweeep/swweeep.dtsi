@@ -7,9 +7,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "swweeep-layout.dtsi"
 
-/* &swweeep_layout {
+&swweeep_layout {
     transform = <&default_transform>;
-}; */
+}; 
 
 / {
     chosen {
