@@ -13,6 +13,7 @@
 
 / {
     chosen {
+        zmk,physical-layout = swweeep_layout;
         zmk,kscan = &kscan0;
     };
 
