@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sadekbaroudi
-      url-base: https://github.com/sadekbaroudi
+#    - name: sadekbaroudi
+#      url-base: https://github.com/sadekbaroudi
     - name: arunsenau                         #new entry
       url-base: https://github.com/arunsenau  #new entry
   projects:
@@ -11,10 +11,10 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-fingerpunch-keyboards
-      remote: sadekbaroudi
-      revision: main
-      import: config/deps.yml
+#    - name: zmk-fingerpunch-keyboards
+#      remote: sadekbaroudi
+#      revision: main
+#      import: config/deps.yml
     - name: nice-view-plus                 #new entry
       remote: arunsenau                       #new entry
       revision: main                      #new entry  
