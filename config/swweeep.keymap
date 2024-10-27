@@ -8,7 +8,7 @@
 #define NAV     1
 #define SYM     2
 #define FUNC    3
-#define MEDIA   4
+#define BT   4
 #define NUMLFT  5
 #define NUMRHT  6
 
@@ -96,16 +96,16 @@
             label = "FUNC";
         };
 
-        media_layer {
+        bt_layer {
             bindings = <
-&trans        &trans  &trans  &trans  &trans                                       &trans             &bt BT_PRV    &bt BT_NXT    &trans        &bootloader
+&trans        &trans  &trans  &trans  &trans                                       &studio_unlock     &bt BT_PRV    &bt BT_NXT    &trans        &bootloader
 &trans        &trans  &trans  &trans  &trans                                       &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
 &trans        &trans  &trans  &trans  &trans  &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF  &out OUT_USB  &out OUT_BLE  &trans        &trans
 &kp DEL                                                                                                                                         &trans
 &out OUT_BLE                                                                                                                                    &out OUT_USB
             >;
 
-            label = "MEDIA";
+            label = "BT";
         };
 
         numlft_layer {
