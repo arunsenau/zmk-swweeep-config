@@ -12,7 +12,7 @@
 #define NUMLFT  5
 #define NUMRHT  6
 
-#define UNLCK &studio_unlock
+
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
 
