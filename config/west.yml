@@ -15,6 +15,10 @@ manifest:
 #      remote: sadekbaroudi
 #      revision: main
 #      import: config/deps.yml
+    - name: zmk-fingerpunch-vik
+      remote: sadekbaroudi
+      revision: main
+      import: config/deps.yml
     - name: zmk-fingerpunch-controllers
       remote: sadekbaroudi
       revision: main
