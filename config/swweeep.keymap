@@ -65,7 +65,7 @@
 &kp ESC     &kp PG_UP   &kp UP     &kp PG_DN   &kp LS(LG(S))                     &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS
 &kp HOME    &kp LEFT    &kp DOWN   &kp RIGHT   &kp END                           &kp FSLH   &kp N4  &kp N5  &kp N6  &kp PLUS
 &bt BT_CLR  &bt BT_PRV  &kp RC(C)  &bt BT_NXT  &kp RC(V)      &kp EQUAL  &kp N1  &kp N2     &kp N3  &kp N0  &trans  &trans
-&kp TAB                                                                                                             &kp BSPC
+&kp TAB                                                                                                             &kp DELETE
 &kp SPACE                                                                                                           &kp DOT
             >;
 
