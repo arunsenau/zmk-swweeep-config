@@ -53,8 +53,8 @@
 &kp Q           &kp W               &kp F           &kp P         &lt 6 B                &lt 5 J    &kp L         &kp U            &kp Y                &kp SEMI
 &hm LEFT_ALT A  &hm LEFT_CONTROL R  &hm LEFT_GUI S  &hs LSHIFT T  &kp G                  &kp M      &hs RSHIFT N  &hm RIGHT_GUI E  &hm RIGHT_CONTROL I  &hm RIGHT_ALT O
 &kp Z           &kp X               &kp C           &kp D         &kp V    &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH         &kp ESCAPE           &lt NAV RET
-&lt FUNC TAB                                                                                                                                            &lt MEDIA BSPC
-&lt SYM SPACE                                                                                                                                           &kp SQT
+&lt FUNC TAB                                                                                                                                            &lt 2 BSPC
+&lt SYM SPACE                                                                                                                                           &lt 4 SQT
             >;
 
             label = "DEFAULT";
@@ -96,7 +96,7 @@
             label = "FUNC";
         };
 
-        media_layer {
+        setting_layer {
             bindings = <
 &trans        &trans  &trans  &trans  &trans                                       &studio_unlock     &bt BT_PRV    &bt BT_NXT    &trans        &bootloader
 &trans        &trans  &trans  &trans  &trans                                       &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
@@ -105,7 +105,7 @@
 &out OUT_BLE                                                                                                                                    &out OUT_USB
             >;
 
-            label = "MEDIA";
+            label = "SET";
         };
 
         numlft_layer {
