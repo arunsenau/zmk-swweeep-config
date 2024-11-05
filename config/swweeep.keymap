@@ -64,7 +64,7 @@
             bindings = <
 &kp ESC     &kp PG_UP   &kp UP     &kp PG_DN   &kp LS(LG(S))                     &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS
 &kp HOME    &kp LEFT    &kp DOWN   &kp RIGHT   &kp END                           &kp FSLH   &kp N4  &kp N5  &kp N6  &kp PLUS
-&bt BT_CLR  &bt BT_PRV  &kp RC(C)  &bt BT_NXT  &kp RC(V)      &kp EQUAL  &kp N1  &kp N2     &kp N3  &kp N0  &trans  &trans
+&caps_word  &bt BT_PRV  &kp RC(C)  &bt BT_NXT  &kp RC(V)      &kp EQUAL  &kp N1  &kp N2     &kp N3  &kp N0  &trans  &trans
 &kp TAB                                                                                                             &kp DELETE
 &kp SPACE                                                                                                           &kp DOT
             >;
@@ -74,9 +74,9 @@
 
         sym_layer {
             bindings = <
-&kp EXCL   &kp AT     &kp HASH         &kp DLLR          &kp PRCNT                              &kp CARET    &kp AMPS  &kp ASTRK  &kp UNDER  &kp EQUAL
-&kp MINUS  &kp LBKT   &kp LBRC         &kp LPAR          &kp LT                                 &kp GT       &kp RPAR  &kp RBRC   &kp RBKT   &kp PLUS
-&kp CAPS   &kp GRAVE  &kp LC(LS(TAB))  &kp LC(LG(LEFT))  &caps_word  &trans  &kp LC(LG(RIGHT))  &kp LC(TAB)  &trans    &kp BSLH   &trans     &kp RET
+&kp EXCL    &kp AT     &kp HASH         &kp DLLR          &kp PRCNT                             &kp CARET    &kp AMPS  &kp ASTRK  &kp UNDER  &kp EQUAL
+&kp MINUS   &kp LBKT   &kp LBRC         &kp LPAR          &kp LT                                &kp GT       &kp RPAR  &kp RBRC   &kp RBKT   &kp PLUS
+&caps_word  &kp GRAVE  &kp LC(LS(TAB))  &kp LC(LG(LEFT))  &kp CAPS   &trans  &kp LC(LG(RIGHT))  &kp LC(TAB)  &trans    &kp BSLH   &trans     &kp RET
 &kp DEL                                                                                                                                      &kp BSPC
 &trans                                                                                                                                       &trans
             >;
@@ -88,7 +88,7 @@
             bindings = <
 &bootloader     &kp LS(PG_UP)       &kp LS(UP)    &kp LS(PG_DN)        &kp LS(LG(NUMBER_4))                             &kp C_MUTE       &kp F7  &kp F8   &kp F9  &kp F12
 &kp LS(HOME)    &kp LS(LEFT)        &kp LS(DOWN)  &kp LS(RIGHT)        &kp LS(END)                                      &kp C_VOLUME_UP  &kp F4  &kp F5   &kp F6  &kp F11
-&trans          &kp RC(LEFT_ARROW)  &kp RG(C)     &kp RC(RIGHT_ARROW)  &kp RG(V)             &kp C_VOLUME_DOWN  &kp F1  &kp F2           &kp F3  &kp F10  &trans  &out OUT_TOG
+&caps_word      &kp RC(LEFT_ARROW)  &kp RG(C)     &kp RC(RIGHT_ARROW)  &kp RG(V)             &kp C_VOLUME_DOWN  &kp F1  &kp F2           &kp F3  &kp F10  &trans  &out OUT_TOG
 &trans                                                                                                                                                            &kp C_PLAY_PAUSE
 &kp C_PREVIOUS                                                                                                                                                    &kp C_NEXT
             >;
