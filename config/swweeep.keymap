@@ -34,6 +34,9 @@
             tapping-term-ms = <300>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-on-release;
         };
 
         hs: homerow_shift {
@@ -42,6 +45,9 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            hold-trigger-on-release;
         };
     };
 
