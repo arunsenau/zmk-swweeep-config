@@ -59,7 +59,7 @@
 &kp Q           &kp W               &kp F       &kp P         &lt 6 B                &lt 5 J    &kp L         &kp U            &kp Y                &kp SEMI
 &hm LEFT_ALT A  &hm LEFT_CONTROL R  &hm LGUI S  &hs LSHIFT T  &kp G                  &kp M      &hs RSHIFT N  &hm RIGHT_GUI E  &hm RIGHT_CONTROL I  &hm RIGHT_ALT O
 &kp Z           &kp X               &kp C       &kp D         &kp V    &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH         &kp ESCAPE           &lt NAV RET
-&lt FUNC TAB                                                                                                                                        &lt 2 BSPC
+&lt FUNC TAB                                                                                                                                        &lt {quick_tap_ms = 175;} 2 BSPC
 &lt SYM SPACE                                                                                                                                       &lt 4 SQT
             >;
 
