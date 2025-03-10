@@ -51,8 +51,6 @@
         };
     };
 
-    &lt {quick_tap_ms = 175;}
-
     keymap {
         compatible = "zmk,keymap";
 
