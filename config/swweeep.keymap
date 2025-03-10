@@ -13,6 +13,7 @@
 #define NUMRHT  6
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
+&lt {quick_tap_ms = 175;}
 
 / {
     combos {
