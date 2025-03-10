@@ -13,11 +13,7 @@
 #define NUMRHT  6
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
-&lt {
-  flavor = "balanced";
-  tapping-term-ms = <300>;
-  quick-tap-ms = 175;
-};
+&lt { quick-tap-ms = <175>; };
 
 / {
     combos {
